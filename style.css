@@ -7,7 +7,7 @@ main {
 	text-align: center;
 }
 
-/*Rule set for the navegation bar*/
+/*Rules sets for the navegation bar */
 
 .nav-top {
 	display: inline-block;
@@ -62,7 +62,7 @@ main {
 	opacity: 1;
 }
 
-/* Rule set for the logo, search box and bottons */
+/* Rules sets for the logo, search box and bottons */
 
 .logo {
 	margin-top: 15%;
@@ -110,7 +110,7 @@ main {
 	box-shadow: 0 3px 8px 1px #ccc;
 }
 
-/*Rule set for the footer */
+/* Rules sets for the footer */
 
 footer {	
 	background-color: #f2f2f2;
