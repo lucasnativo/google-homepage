@@ -1,0 +1,187 @@
+
+body {
+	margin: 0px;
+	font-family: arial, sans-serif;
+}
+
+.top-bar {
+	background-color: #fafafa;
+	height: 44px;
+	padding-top: 20px;
+	position: relative;
+}
+
+.top-bar .search-box {
+	background: none;
+	font-size: small;
+	width: 634px;
+	padding-left: 150px;
+	float: left;
+	}
+
+.search-box .search {
+	border: 1px;
+	height: 40px;
+	width: 100%;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 #00000029, 0 0 0 1px #00000014;
+}	
+
+.logo-box {
+	width: 155px; height: 44px;
+	display: inline-block;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+}
+.logo {
+	width: 120px;
+	height: 44px;
+	padding-top: 7px;
+	padding-left: 13px;
+	padding-right: 12px;
+}
+
+.apps-logo-box {
+	width: 50px; height: 30px;
+	float: right;
+	margin-right: 30px;
+}
+
+#apps-logo {
+	width: 23px;
+	height: 23px;
+	opacity: 0.55;
+	padding-left: 27px;
+	padding-right: 27px;
+	padding-top: 2px;
+}
+
+.signin-box {
+	padding: 0px 30px;
+}
+
+.signin-box a {
+	text-decoration: none;
+	color: #fff;
+}
+
+#signin {
+    background-color: #4285f4;
+	border: 1px solid #4285f4;
+	border-radius: 2px;
+	color: #fff;
+	font-weight: bold;
+	line-height: 28px;
+	padding: 0 12px;
+	float: right;
+	display: block;
+}
+
+.link-bar {	
+	background-color: #fafafa;
+	height: 58px;
+	border-bottom: 1px solid #ebebeb;
+}
+
+.link-bar a {
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	font-weight: 500;
+	text-decoration: none;
+	color: #777;
+}
+
+.link-bar a:hover {
+	color: #222;
+}
+
+.link-bar a:active {
+	color: #1A73E8;
+	font-weight: 700;
+}
+
+.link-bar div {
+	position: relative;
+	display: inline-block;
+	bottom: 3px;
+}
+
+.link-bar .all {
+	margin-left: 150px;
+	padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    border-bottom-width: 3px;
+    padding-top: 28px;
+    display: inline-block;
+}
+
+.link-bar .all:hover {
+	border-bottom: 3px solid #1A73E8;
+}
+
+
+.link-bar .images {
+	padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    border-bottom-width: 3px;
+    padding-top: 28px;
+    margin-bottom: 3px;
+    display: inline-block;
+}
+
+.link-bar .news {
+	padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    border-bottom-width: 3px;
+    padding-top: 28px;
+    margin-bottom: 3px;
+}
+
+.link-bar .videos {
+	padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    border-bottom-width: 3px;
+    padding-top: 28px;
+    margin-bottom: 3px;
+}
+
+.link-bar .shopping {
+	padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    border-bottom-width: 3px;
+    padding-top: 28px;
+    margin-bottom: 3px;
+}
+
+.link-bar .more {
+	padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    border-bottom-width: 3px;
+    padding-top: 28px;
+    margin-bottom: 3px;
+}
+
+.link-bar .settings {
+	padding-left: 77px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    border-bottom-width: 3px;
+    padding-top: 28px;
+    margin-bottom: 3px;
+}
+
+.link-bar .tools {
+	padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    border-bottom-width: 3px;
+    padding-top: 28px;
+    margin-bottom: 3px;
+}
