@@ -165,7 +165,7 @@ p {
 	width: 600px;
 }
 
-.results h3 {
+.results h3, .results h2 {
 	margin: 0px;
 	font-size: 18px;
 	font-weight: 400;
@@ -197,6 +197,7 @@ p {
 
 .table-primaryresult {
 	margin-left: 22px;
+	margin-bottom: 26px;
 }
 
 .table-primaryresult a {
@@ -217,4 +218,13 @@ p {
 
 .table-primaryresult .c1 {
 	width: 303px;
+}
+
+.results .secondary {
+	margin-bottom: 26px;
+}
+
+.table-primaryresult .more {
+	font-size: 13px;
+	padding-left: 4px;
 }
