@@ -3,6 +3,10 @@ body {
 	font-family: arial, sans-serif;
 }
 
+p {
+	margin: 0px 0px;
+}
+
 .top-bar {
 	background-color: #fafafa;
 	height: 44px;
@@ -126,7 +130,7 @@ body {
 }
 
 #settings {
-	padding-left: 80px;
+	padding-left: 80px;	
 }
 
 .link-bar .link-box:hover {
@@ -139,15 +143,78 @@ body {
 }
 
 .count-bar {
-	background-color: #fafafa;
+	background-color: #fff;
 	height: 43px;
 }
 
 .count-bar .count {
+	display: inline-block;
+	height: 43px;
 	margin-left: 150px;
-	font-family: arial, sans-serif;
 	font-size: 13px;
-	font-weight: 500;
-	color: #777;
+	font-family: arial, sans-serif;
+	color:#808080;
 	padding-left: 16px;
+	vertical-align: middle;
+	line-height: 43px;
+}
+
+.results {
+	margin-left: 150px;
+	padding-left: 16px; padding-right: 16px; padding-top: 9px;
+	width: 600px;
+}
+
+.results h3 {
+	margin: 0px;
+	font-size: 18px;
+	font-weight: 400;
+}
+
+.results a {
+	text-decoration: none;
+}
+
+.results .cached {
+	color: #006621;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+.results .search-match {
+	color: #545454;
+	font-size: 13px;
+	font-weight: 700;
+	line-height: 18.2px;
+}
+
+.results .preview {
+	color: #545454;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 18.2px;
+}
+
+.table-primaryresult {
+	margin-left: 22px;
+}
+
+.table-primaryresult a {
+	color: #1a0dab;
+	font-size: 18px;
+}
+
+.table-primaryresult .table-link {
+	margin-top: 2px;
+	padding: 10px 0px 0px 4px;
+}
+
+.table-primaryresult .table-preview {
+	width: 220px;
+	height: 36.4px;
+	padding: 0px 0px 3px 4px;
+}
+
+.table-primaryresult .c1 {
+	width: 303px;
 }
