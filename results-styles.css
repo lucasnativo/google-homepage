@@ -12,6 +12,7 @@ p {
 	height: 44px;
 	padding-top: 20px;
 	position: relative;
+	min-width: 1000px;
 }
 
 .top-bar .search-box {
@@ -23,6 +24,10 @@ p {
 	}
 
 .search-box .search {
+	background-position: 98% 1px;
+	background-image: url(images/search.png);
+	background-size: 64px;
+	background-repeat: no-repeat;
 	border: 1px;
 	height: 40px;
 	width: 100%;
@@ -85,6 +90,7 @@ p {
 	background-color: #fafafa;
 	height: 58px;
 	border-bottom: 1px solid #ebebeb;
+	min-width: 1000px;
 }
 
 .link-bar a {
@@ -145,6 +151,7 @@ p {
 .count-bar {
 	background-color: #fff;
 	height: 43px;
+	min-width: 1000px;
 }
 
 .count-bar .count {
@@ -185,7 +192,6 @@ p {
 	color: #545454;
 	font-size: 13px;
 	font-weight: 700;
-	line-height: 18.2px;
 }
 
 .results .preview {
@@ -245,4 +251,68 @@ p {
 	font-weight: bold;
 	color: #1a0dab;
 	line-height: 20px;
+}
+
+.related td {
+	padding-right: 32px;
+}
+
+.related .related-match {
+	font-weight: normal;
+}
+
+.more-results {
+	margin: 30px 161.5px;
+}
+
+.more-results td {
+	font-size: 13px;
+	padding: 0px;
+	text-align: center;
+}
+
+.more-results .g {
+	color: transparent;
+}
+
+footer {	
+	background-color: #f2f2f2;
+	border-top: 1px solid #e4e4e4;
+	color: #666;
+	font-size: small;
+	line-height: 40px;
+	left: 0px;
+	margin: 0px;
+	margin-right: 27px;
+	position: absolute;
+	width: 100%;
+}
+
+footer a {
+	color: #666;
+	padding-left: 27px;
+	text-decoration: none;
+}
+
+footer nav {
+	border-top: 1px solid #e4e4e4;
+}
+
+.fbar {
+	padding-left: 142px;
+}
+
+.fbar .pais {
+	font-size: 15px;
+	margin: 0px;
+	padding-left: 27px;
+	text-align: left;
+}
+
+.flink .fright {
+	float: right;
+}
+
+.flink .settings {
+	padding-right: 27px;
 }
